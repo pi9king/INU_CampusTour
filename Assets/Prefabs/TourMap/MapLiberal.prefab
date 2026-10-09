@@ -1,0 +1,785 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1014985794918168}
+  m_IsPrefabParent: 1
+--- !u!1 &1014985794918168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4711552167117230}
+  - component: {fileID: 114686192631660202}
+  - component: {fileID: 131968426646455422}
+  - component: {fileID: 114151972004846322}
+  - component: {fileID: 114780355625817252}
+  - component: {fileID: 114548905269999474}
+  - component: {fileID: 114819726689076036}
+  m_Layer: 0
+  m_Name: MapLiberal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4711552167117230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114151972004846322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfbbf8248794154588682986cae87e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeTexture: {fileID: 0}
+  allowAddMarkerByM: 1
+  allowZoom: 1
+  allowUserControl: 1
+  isMapDrag: 0
+  invertTouchZoom: 0
+  zoomInOnDoubleClick: 1
+  zoomMode: 0
+--- !u!114 &114548905269999474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c476c58b6b054d9469cbe6c8fa060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileCacheLocation: 0
+  fileCacheCustomPath: 
+  fileCacheTilePath: TileCache/{pid}/{mid}/{lbs}/{lng}/{zoom}/{x}/{y}
+  fileCacheUnloadRate: 0.3
+  maxFileCacheSize: 100
+  maxMemoryCacheSize: 10
+  memoryCacheUnloadRate: 0.3
+  useFileCache: 1
+  useMemoryCache: 1
+--- !u!114 &114686192631660202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf484bb098da8c48973c6e0076a9e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowRedraw: 1
+  control: {fileID: 0}
+  customProviderURL: http://localhost/{zoom}/{y}/{x}
+  customTrafficProviderURL: http://localhost/{zoom}/{y}/{x}
+  defaultMarkerAlign: 7
+  defaultMarkerTexture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63,
+    type: 3}
+  defaultTileTexture: {fileID: 0}
+  dispatchEvents: 1
+  emptyColor: {r: 0.49803922, g: 0.49803922, b: 0.49803922, a: 1}
+  height: 0
+  labels: 0
+  language: en
+  lockRedraw: 0
+  markers:
+  - label: 1
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6345
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 2
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6345
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 3
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6345
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  - label: 4
+    latitude: 37.376
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63356
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 5
+    latitude: 37.376
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63356
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 6
+    latitude: 37.376
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63356
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  - label: 7
+    latitude: 37.37528
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63278
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 8
+    latitude: 37.37528
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63278
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 9
+    latitude: 37.37528
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63278
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  - label: 10
+    latitude: 37.3744
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6321
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 11
+    latitude: 37.3744
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6321
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 12
+    latitude: 37.3744
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6321
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  - label: 13
+    latitude: 37.37471
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63155
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 14
+    latitude: 37.37471
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63155
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 15
+    latitude: 37.37471
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63155
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  - label: 16
+    latitude: 37.37537
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63225
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 17
+    latitude: 37.37537
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63225
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 18
+    latitude: 37.37537
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.63225
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
+    _rotation: 0
+  - label: 22
+    latitude: 37.3763
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.633
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 23
+    latitude: 37.3763
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.633
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 24
+    latitude: 37.3763
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.633
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
+    _rotation: 0
+  - label: 25
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6333
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 26
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6333
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 27
+    latitude: 37.3766
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6333
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
+    _rotation: 0
+  - label: 19
+    latitude: 37.3761
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6328
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 1c0ad2deed16c3743a23047bf09a2c12, type: 3}
+    _rotation: 0
+  - label: 20
+    latitude: 37.3761
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6328
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 2800000, guid: 0e8be83f704a5fd4abbea51bc2385f0b, type: 3}
+    _rotation: 0
+  - label: 21
+    latitude: 37.3761
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 126.6328
+    _scale: 1
+    align: 7
+    locked: 0
+    markerColliderRect:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    texture: {fileID: 0}
+    _rotation: 0
+  needRedraw: 1
+  notInteractUnderGUI: 1
+  provider: 2
+  mapType: osm.mapnik
+  redrawOnPlay: 1
+  renderInThread: 1
+  resourcesPath: OnlineMapsTiles/{zoom}/{x}/{y}
+  showMarkerTooltip: 0
+  smartTexture: {fileID: 0}
+  source: 0
+  stopPlayingWhenScriptsCompile: 1
+  target: 0
+  texture: {fileID: 2800000, guid: 7bef04f95f4780d4da94ca6645d978f5, type: 3}
+  tilesetWidth: 1024
+  tilesetHeight: 1024
+  tilesetSize: {x: 1024, y: 1024}
+  tooltip: 
+  tooltipMarker:
+    label: 
+    latitude: 0
+    range:
+      max: 20
+      min: 3
+      maxLimit: 20
+      minLimit: 3
+    tags: []
+    _enabled: 1
+    longitude: 0
+    _scale: 1
+  tooltipBackgroundTexture: {fileID: 2800000, guid: a8d1734e646100c4e83635fecf978e15,
+    type: 3}
+  traffic: 0
+  trafficProviderID: googlemaps
+  type: 0
+  useCurrentZoomTiles: 0
+  useSoftwareJPEGDecoder: 0
+  useSmartTexture: 1
+  useWebplayerProxy: 1
+  webplayerProxyURL: http://service.infinity-code.com/redirect.php?
+  width: 0
+  latitude: 37.376338958740234
+  longitude: 126.6331
+  _zoom: 16
+  _activeTypeSettings: 
+--- !u!114 &114780355625817252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cad15691a9de6478a78e8f68ae6ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoStopUpdateOnInput: 1
+  compassThreshold: 8
+  createMarkerInUserPosition: 1
+  disableEmulatorInPublish: 0
+  emulatorCompass: 0
+  emulatorPosition: {x: 126.6335, y: 37.3755}
+  findLocationByIP: 0
+  markerTooltip: Player
+  markerType: 0
+  marker2DAlign: 4
+  marker2DTexture: {fileID: 2800000, guid: 404b8e04f18ac8841908bd7ac377ed83, type: 3}
+  marker3DPrefab: {fileID: 0}
+  maxPositionCount: 3
+  position: {x: 0, y: 0}
+  restoreAfter: 3
+  trueHeading: 0
+  updatePosition: 1
+  useCompassForMarker: 0
+  useGPSEmulator: 0
+  desiredAccuracy: 10
+  updateDistance: 10
+--- !u!114 &114819726689076036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab35bad2950a4cbd9841d3d99c2ae7e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!131 &131968426646455422
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014985794918168}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 7bef04f95f4780d4da94ca6645d978f5, type: 3}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: -512
+    y: -512
+    width: 1024
+    height: 1024
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0

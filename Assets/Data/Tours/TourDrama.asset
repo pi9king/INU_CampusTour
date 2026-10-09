@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8980f4cb78f4f6e8bd6375a62801ac0, type: 3}
+  m_Name: TourDrama
+  m_EditorClassIdentifier: 
+  sceneName: Drama Tour
+  stampKey: drama
+  mapPrefab: {fileID: 1801718594100756, guid: 24ede15b02c102347b424e942001c9cd, type: 2}
+  route:
+    centerPoint: {x: 126.6329, y: 37.3749}
+    arrivalThreshold: 0.00015
+    startDelay: 0.9
+    markerStepInterval: 0.5
+    quadrantStarts:
+    - stopIndex: 0
+      routeText: "\uc9c0\uc815\ub41c\uc7a5\uc18c(\ucd2c\uc601\uc9c0)\ub85c \uc774\ub3d9\ud574\uc8fc\uc138\uc694!!"
+    - stopIndex: 5
+      routeText: "\uc9c0\uc815\ub41c\uc7a5\uc18c(\ucd2c\uc601\uc9c0)\ub85c \uc774\ub3d9\ud574\uc8fc\uc138\uc694!!"
+    - stopIndex: 0
+      routeText: "\uc9c0\uc815\ub41c\uc7a5\uc18c(\ucd2c\uc601\uc9c0)\ub85c \uc774\ub3d9\ud574\uc8fc\uc138\uc694!!"
+    - stopIndex: 5
+      routeText: "\uc9c0\uc815\ub41c\uc7a5\uc18c(\ucd2c\uc601\uc9c0)\ub85c \uc774\ub3d9\ud574\uc8fc\uc138\uc694!!"
+    stops:
+    - displayName: "\ud559\uad502015"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ubcc4\uc5d0\uc11c \uc628 \uadf8\ub300 & \ub2e5\ud130\uc774\ubc29\uc778"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc0ac\ub791\uc758 \uc628\ub3c4"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc77c\ub144\uc5d0 \uc5f4\ub450\ub0a8\uc790"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ub0b4 \ub0a8\uc790\uc758 \ube44\ubc00"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc6b0\ub9ac \ud5e4\uc5b4\uc84c\uc5b4\uc694"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ub7f0\ub2dd\ub9e8 & \ud558\uc774\ub4dc \uc9c0\ud0ac \ub098"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc218\uc0c1\ud55c\ud30c\ud2b8\ub108"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc870\uc791 & \ucc98\uc74c\uc774\ub77c\uc11c"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ud638\uad6c\uc758 \uc0ac\ub791"
+      guideText: "\ub2e4\uc74c \ucd2c\uc601\uc9c0\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"

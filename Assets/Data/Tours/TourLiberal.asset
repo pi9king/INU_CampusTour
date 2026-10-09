@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8980f4cb78f4f6e8bd6375a62801ac0, type: 3}
+  m_Name: TourLiberal
+  m_EditorClassIdentifier: 
+  sceneName: Liberal Tour
+  stampKey: liberal
+  mapPrefab: {fileID: 1014985794918168, guid: de977832da0e54d45b1b59cfa813cea8, type: 2}
+  route:
+    centerPoint: {x: 126.6326, y: 37.37537}
+    arrivalThreshold: 0.00015
+    startDelay: 0.9
+    markerStepInterval: 0.5
+    quadrantStarts:
+    - stopIndex: 0
+      routeText: "\ub300\ud559\ubcf8\ubd80(1\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694!!"
+    - stopIndex: 4
+      routeText: "\uc608\uc220\uccb4\uc721\ub300\ud559(8\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694!!"
+    - stopIndex: 0
+      routeText: "\ub300\ud559\ubcf8\ubd80(1\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694!!"
+    - stopIndex: 4
+      routeText: "\uc608\uc220\uccb4\uc721\ub300\ud559(17\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694!!"
+    stops:
+    - displayName: "\ub300\ud559\ubcf8\ubd80"
+      guideText: "\ub300\ud559\ubcf8\ubd80(1\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc0ac\ud68c\uacfc\ud559\ub300\ud559"
+      guideText: "\uc0ac\ud68c\ub300\ud559(13\ud638\uad00)\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ucee8\ubca4\uc158\uc13c\ud130"
+      guideText: "\ucee8\ubca4\uc158\uc13c\ud130(12\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ubcf5\uc9c0\ud68c\uad00"
+      guideText: "\ubcf5\uc9c0\ud68c\uad00(11\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc608\uc220\uccb4\uc721\ub300\ud559"
+      guideText: "\uc608\uc220\uccb4\uc721\ub300\ud559(16\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uc778\ubb38\ub300\ud559"
+      guideText: "\uc778\ubb38\ub300\ud559(15\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uae00\ub85c\ubc8c\ubc95\uc815\uacbd\ub300\ud559"
+      guideText: "\uae00\ub85c\ubc8c\ubc95\uc815\uacbd\ub300\ud559(14\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\uacbd\uc601\ub300"
+      guideText: "\uacbd\uc601\ub300\ud559(14\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
+    - displayName: "\ub3d9\ubd81\uc544\uad6d\uc81c\ud1b5\uc0c1"
+      guideText: "\ub3d9\ubd81\uc544\uad6d\uc81c\ud1b5\uc0c1(14\ud638\uad00)\uc73c\ub85c \uc774\ub3d9\ud574 \uc8fc\uc138\uc694"
